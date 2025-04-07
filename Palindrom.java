@@ -4,12 +4,12 @@ public class PalindromeNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int num = scanner.nextInt();
         scanner.close();
-        if (isPalindrome(number)) {
-            System.out.println(number + " is a palindrome.");
+        if (isPalindrome(num)) {
+            System.out.println(num+ " is a palindrome.");
         } else {
-            System.out.println(number + " is not a palindrome.");
+            System.out.println(num+ " is not a palindrome.");
         }
     }
     
